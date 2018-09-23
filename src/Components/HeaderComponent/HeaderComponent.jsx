@@ -8,11 +8,11 @@ const HeaderComponent = (props = {}) => {
     } = props;
 
     return (
-        <div class="header">
-            <img class="logo" src={logo} alt="logo png" />
+        <div className="header">
+            <img className="logo" src={logo} alt="logo png" />
             {location !== "home"
-                ? <div class="search">
-                    <input class="search-bar" type="text" name="search" />
+                ? <div className="search">
+                    <input className="search-bar" type="text" name="search" placeholder="Search a place for reviews" />
                 </div>
                 : null
             }
