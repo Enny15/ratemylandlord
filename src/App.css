@@ -34,3 +34,18 @@
 .btn:hover {
   box-shadow: 0 5px #666;
 }
+
+.search-div {
+  display: flex; /* or inline-flex */
+  height: 100px;
+}
+
+.search-div .search .search-bar{
+  width: 700px;  /* Or whatever */
+  height: 50px; /* Or whatever */ 
+  margin-left: 350px;
+  margin-top: 100px;
+  background: #E6E6FA;
+  border: 3px solid #7880c5 !important;
+  padding-left: 10px;
+}
