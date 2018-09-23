@@ -11,7 +11,7 @@
 
 .rating .rating-header {
     width: 100%;
-    height: 40%;
+    height: 100%;
     display: flex;
 }
 
@@ -54,4 +54,53 @@
     font-size: 50px;
     margin: 20px;
     margin-left: 5px;
+    color: #7880c5;
+}
+
+.img-item {
+    width: auto;  
+    height:250px;
+    margin-top: 20px;
+}
+
+.overall-rating {
+    margin-top: 10%;
+    margin-left: 8%;
+}
+
+.ratings {
+    margin-left: 8%;
+}
+
+.ratingHead {
+    margin-left: 7%;
+}
+
+.rating-header{
+    margin-top: 2%;
+    border: 1px solid #808080;
+}
+
+.rating-div {
+    margin-top: 2%;
+    border: 1px solid #808080; 
+    margin-bottom: 2%; 
+}
+
+.rater {
+    font-weight: bold;
+}
+
+.btn-rate {
+    box-shadow: 1px 1px 5px #888888;
+    background-color: #ffe18b;
+    border-radius: 20px;
+    height: 45px;
+    width: 100px;
+    margin-right: 12px;
+    font-size: 15px;
+}
+
+.btn-rate:hover {
+    box-shadow: 0 5px #666;
 }
