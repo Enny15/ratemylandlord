@@ -5,7 +5,8 @@ import './MainLayout.css';
 
 const MainLayout = (props = {}) => {
     const {
-        location
+        location,
+        children
     } = props;
 
     return (
@@ -13,6 +14,8 @@ const MainLayout = (props = {}) => {
             <Header location={location} />
             <div className="main_body">
                 <Filter />
+                {children}
+                <div>ads</div>
             </div>
         </div>
     )
