@@ -1,23 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import Header from './Components/HeaderComponent/HeaderComponent';
-import SearchBar from './Components/SearchBarComponent/SearchBar';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import Home from './Home.js';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header />
-        <div className="search-div">
-          <SearchBar />
+      <Router>
+        <div className="app">
+          <Route exactpath="/" component={Home} />
         </div>
-        <div className="button-div text-center">
-            <button type="button" className="btn btn-item">RATE A ROOM</button>
-            <button type="button" className="btn btn-item">RENT A ROOM</button>
-            <button type="button" className="btn btn-item">POST/SELL A ROOM</button>
-        </div>
-      </div>
+      </Router>
     );
   }
 }
