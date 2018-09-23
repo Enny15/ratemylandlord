@@ -1,0 +1,18 @@
+.Ads {
+	display: flex;
+	flex-direction: column;
+	float: right;
+	padding: 20px 15px 10px;
+}
+
+.Ads .Ad1 a img {
+	display: block;
+	width: 300px;
+}
+.CaptionText {
+	font-style: normal;
+	font-family: Arial;
+	text-align: center;
+	font-size: 15px;
+	padding: 6px 6px 6px;
+}

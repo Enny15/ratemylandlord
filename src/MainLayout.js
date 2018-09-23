@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Components/HeaderComponent/HeaderComponent';
 import Filter from './Components/FilterComponent/FilterComponent';
+import Ads from './Components/AdsComponent/AdsComponent';
 import './MainLayout.css';
 
 const MainLayout = (props = {}) => {
@@ -15,7 +16,7 @@ const MainLayout = (props = {}) => {
             <div className="main_body">
                 <Filter />
                 {children}
-                <div>ads</div>
+                <Ads />
             </div>
         </div>
     )

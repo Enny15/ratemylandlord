@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Home from './Home.js';
+import Rating from './Components/RatingComponent/RatingComponent';
 import './App.css';
 
 class App extends Component {
@@ -8,7 +9,8 @@ class App extends Component {
     return (
       <Router>
         <div className="app">
-          <Route exactpath="/" component={Home} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/rating" component={Rating} />
         </div>
       </Router>
     );
