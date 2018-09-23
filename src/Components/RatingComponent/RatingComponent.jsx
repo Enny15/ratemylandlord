@@ -14,7 +14,7 @@ const RatingComponent = (props = {}) => {
                     <div className="rating-header">
                         <div className="overall">
                             <h2>Overall Rating</h2>
-                            <p className="ratingNumber">4.3</p>
+                            <p className="ratingNumber">3.3</p>
                         </div>
                         <div className="description">
                             <h2>123 River creek</h2>
