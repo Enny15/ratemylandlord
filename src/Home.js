@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import Header from './Components/HeaderComponent/HeaderComponent';
 import SearchBar from './Components/SearchBarComponent/SearchBar';
 import './Home.css';
-import { Link } from 'react-router-dom';
 
 class Home extends Component {
   render() {
