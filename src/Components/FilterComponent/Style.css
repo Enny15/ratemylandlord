@@ -39,6 +39,7 @@
 .category {
     font-size: 20px;
     color: #f1f1f1;
+    margin-left: 9px;
 }
 
 .sidebar-border {
@@ -46,4 +47,10 @@
     border-bottom-width: 1px;
     color: white;
     top: 100%;
+}
+
+.filter-div {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: -10px;
 }
