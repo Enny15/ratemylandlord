@@ -1,0 +1,17 @@
+.entry-div {
+	width: 30%;
+	height: 100%;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.rent-img {
+	width:auto; 
+	height:250px
+}
+
+.entry-item {
+  width: auto;  /* Or whatever */
+  height: 100px; /* Or whatever */
+  margin: auto;  /* Magic! */
+}
