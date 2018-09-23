@@ -5,7 +5,7 @@ class FilterComponent extends Component {
   render() {
     return (
       <div className="FilterComponent">
-        <p className="Filter-sidebar">
+        <div className="Filter-sidebar">
           <div class="sidenav">
             <p class="category">School:</p>
             <div class="sidebar-border">
@@ -32,7 +32,7 @@ class FilterComponent extends Component {
               <a href="#">6-8</a>
             </div>
           </div>
-        </p>
+        </div>
       </div>
     );
   }
