@@ -19,9 +19,7 @@ const RatingComponent = (props = {}) => {
                         <div className="description">
                             <h2>123 River creek</h2>
                             <p><b>Description</b></p>
-                            <p>Lorem Ipsum has been the industry's standard dummy text ever since the<br />
-                                1500s, when an unknown printer took a galley of type and scrambled it to<br />
-                                make a type specimen book.</p>
+                            <p>Magnificent rental opportunity, minutes to the downtown core. This Urban oasis stays true to its Victorian roots and features high ceilings, crown moldings, decorative trim and the list goes on. The 4 floors of living space provide plenty of room and the second floor media room is sure to be a hit. Finished basement, bright and open kitchen, and a lovely garden.</p>
                         </div>
                     </div>
                     <h2>Ratings</h2>

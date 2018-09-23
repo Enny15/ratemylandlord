@@ -13,9 +13,9 @@ class Home extends Component {
           <SearchBar />
         </div>
         <div className="button-div text-center">
-          <Link to="/rating">
+            <Link to="/searchResult">
             <button type="button" className="btn btn-item">RATE A ROOM</button>
-          </Link>
+             </Link>
             <Link to="/searchResult">
             <button type="button" className="btn btn-item">RENT A ROOM</button>
             </Link>
