@@ -27,6 +27,7 @@ class AdsComponent extends Component {
           </a>
           <div className = "CaptionText">ACT Student. Register Now</div>
         </div>
+        <button className="chat-btn">Live Chat!</button>
       </div>
     )
   }

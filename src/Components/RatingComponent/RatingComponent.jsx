@@ -43,7 +43,7 @@ const RatingComponent = (props = {}) => {
                                 <p className="ratingNumber">2.3</p>
                             </div>
                             <div className="description">
-                               This place is not good because...
+                               The landlord doesn't listen to our complaints. Awful place to live.
                             </div>
                         </div>
                     </div>

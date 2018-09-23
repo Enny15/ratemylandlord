@@ -16,3 +16,19 @@
 	font-size: 15px;
 	padding: 6px 6px 6px;
 }
+
+.chat-btn {
+	box-shadow: 1px 1px 5px #888888;
+    background-color: #ffe18b;
+    border-radius: 5px;
+    height: 45px;
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 4px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.chat-btn:hover {
+    box-shadow: 0 5px #666;
+}
