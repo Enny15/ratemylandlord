@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import SearchBar from '../SearchBarComponent/SearchBar';
 import logo from './img/logo.png';
 import './Style.css';
@@ -10,7 +11,9 @@ const HeaderComponent = (props = {}) => {
 
     return (
         <div className="header">
-            <img className="logo" src={logo} alt="logo png" />
+            <Link to="/">
+                <img className="logo" src={logo} alt="logo png" height="130px" width="240px" />
+            </Link>
             {location === "home"
                 ? <SearchBar />
                 : null
